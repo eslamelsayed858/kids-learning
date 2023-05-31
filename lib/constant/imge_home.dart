@@ -6,9 +6,9 @@ class DataHome {
   static const String title4 = "Numbers";
 
   /// image Data Home
-  static const String image1 = 'assets/home_images/pngtree.png';
+  static const String image1 = 'assets/home_images/download.png';
   static const String image2 =
-      'assets/home_images/135-095329-arabic-language-national-day-letters-6.webp';
-  static const String image3 = 'assets/home_images/ABC-Alphabet.png';
-  static const String image4 = 'assets/home_images/100.jpg';
+      'assets/home_images/pngtree-hijaiyah-lettering-arabic-font-png-image_6251406.png';
+  static const String image3 = 'assets/home_images/eng.jpg';
+  static const String image4 = 'assets/home_images/numbers.jpg';
 }
