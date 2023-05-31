@@ -1,96 +1,97 @@
 import '../constant/imge_ar.dart';
-import '../model/m_ar.dart';
+import '../model/m_data.dart';
 
 class ControllerAr {
-  static List<ModelAr> listAr = [
+  /// Controller Arabic
+  static List<ModelData> listAr = [
     ///0
-    ModelAr(
+    ModelData(
       image: ImageAr.letter1ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter2ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter3ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter4ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter5ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter6ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter7ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter8ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter9ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter10ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter11ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter12ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter13ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter14ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter15ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter16ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter17ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter18ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter19ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter20ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter21ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter22ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter23ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter24ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter25ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter26ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter27ar,
     ),
-    ModelAr(
+    ModelData(
       image: ImageAr.letter28ar,
     ),
   ];
   static int get length => listAr.length;
 
   ///get one news
-  static ModelAr getAr(int index) => listAr.elementAt(index);
+  static ModelData getAr(int index) => listAr.elementAt(index);
 }

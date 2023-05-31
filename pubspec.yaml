@@ -27,7 +27,8 @@ flutter:
     - assets/splash_images/
     - assets/home_images/
     - assets/ar_image/
-    - assets/numbers_ar_images/
+    - assets/numbers_eng_image/
+    - assets/eng_image/
 
   # example:
   # fonts:

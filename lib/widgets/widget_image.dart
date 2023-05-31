@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-import '../model/m_ar.dart';
+import '../model/m_data.dart';
 
 class WidgetImage extends StatelessWidget {
   const WidgetImage({super.key, required this.data});
 
   /// proprtes
-  final ModelAr data;
+  final ModelData data;
 
   @override
   Widget build(BuildContext context) {
@@ -17,6 +17,7 @@ class WidgetImage extends StatelessWidget {
           decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage(
+                  /// data image
                   data.image,
                 ),
                 fit: BoxFit.fill),

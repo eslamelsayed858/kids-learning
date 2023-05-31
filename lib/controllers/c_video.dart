@@ -2,6 +2,7 @@ import '../constant/video_home.dart';
 import '../model/m_home_data.dart';
 
 class ControllerVideo {
+  /// Controller Video
   static List<ModelHomeData> listVideo = [
     /// 0
     ModelHomeData(

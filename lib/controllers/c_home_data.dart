@@ -2,6 +2,7 @@ import 'package:children_education/constant/imge_home.dart';
 import 'package:children_education/model/m_home_data.dart';
 
 class ControllerHomeData {
+  /// Controller Home Data
   static List<ModelHomeData> listHome = [
     ///0
     ModelHomeData(

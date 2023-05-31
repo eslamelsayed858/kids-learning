@@ -32,7 +32,7 @@ class WidgetVideoPage extends StatelessWidget {
                 flex: 4,
                 child: Container(
                   width: double.infinity,
-                  color: Colors.red,
+                  color: const Color.fromARGB(255, 249, 219, 217),
                   child: Image(
                     image: NetworkImage(data.image),
                     fit: BoxFit.fill,

@@ -3,7 +3,7 @@ class DataHome {
   static const String title1 = "Animals";
   static const String title2 = "Arabic";
   static const String title3 = "English";
-  static const String title4 = "mathematics";
+  static const String title4 = "Numbers";
 
   /// image Data Home
   static const String image1 = 'assets/home_images/pngtree.png';

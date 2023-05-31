@@ -1,10 +1,10 @@
-class ModelAr {
+class ModelData {
   /// properties
 
   String image;
 
   /// constructor
-  ModelAr({
+  ModelData({
     required this.image,
   });
 }

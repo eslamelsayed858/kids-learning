@@ -11,6 +11,8 @@ class WidgetIconBotton extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         IconButton(
+
+            /// ->
             icon: const Icon(
               Icons.skip_previous_outlined,
               size: 60,
@@ -20,6 +22,7 @@ class WidgetIconBotton extends StatelessWidget {
           width: 80,
         ),
         IconButton(
+          /// <-
           icon: const Icon(
             Icons.skip_next_outlined,
             size: 60,
