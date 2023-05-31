@@ -50,7 +50,7 @@ class WidgetHomePage extends StatelessWidget {
                           ),
                           child: Text(
                             /// title home `index`
-                            data.title,
+                            data.title!,
                           ),
                         )
                       ]),

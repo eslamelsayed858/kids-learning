@@ -45,7 +45,7 @@ class WidgetVideoPage extends StatelessWidget {
                 flex: 1,
                 child: Center(
                   child: Text(
-                    data.title,
+                    data.title!,
                     style: const TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
