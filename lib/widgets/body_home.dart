@@ -1,9 +1,8 @@
 import 'package:children_education/controllers/c_home_data.dart';
 import 'package:children_education/widgets/widget_home_page.dart';
 import 'package:flutter/material.dart';
-
 import '../view/animals_page.dart';
-import '../view/arabic_page.dart';
+import '../view/arbeic_home.dart';
 import '../view/english_page.dart';
 import '../view/mathematics_page.dart';
 
@@ -35,7 +34,7 @@ class BodyHome extends StatelessWidget {
                     MaterialPageRoute(
                       builder: (context) {
                         /// Page Home Animals
-                        return const ArabicPage();
+                        return const ArbecHome();
                       },
                     ),
                   );

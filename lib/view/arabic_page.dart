@@ -17,22 +17,6 @@ class _ArabicPageState extends State<ArabicPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: navigationBody[currentIndex],
-
-      //  SafeArea(
-      //   child: Column(
-      //     children: [
-      //       // navigationBody[currentIndex],
-      //       const SizedBox(
-      //         height: 60,
-      //       ),
-      //       WidgetIconBotton(
-      //         onPressed: () {
-      //           navigationBody;
-      //         },
-      //       ),
-      //     ],
-      //   ),
-      // ),
     );
   }
 }

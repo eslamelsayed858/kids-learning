@@ -7,16 +7,17 @@ class BodyWidgetImge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView.builder(
+    return ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: ControllerAr.length,
-        physics: const BouncingScrollPhysics(),
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 1,
-          childAspectRatio: 2,
-        ),
-        itemBuilder: (context, index) => WidgetImage(
+        itemBuilder: (context, index) {
+          return SizedBox(
+            height: 500,
+            width: 500,
+            child: WidgetImage(
               data: ControllerAr.getAr(index),
-            ));
+            ),
+          );
+        });
   }
 }
