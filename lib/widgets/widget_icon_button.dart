@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
 class WidgetIconBotton extends StatelessWidget {
-  const WidgetIconBotton({super.key, required this.onPressed});
+  const WidgetIconBotton(
+      {super.key, required this.onPressed, required this.onTap});
   final void Function()? onPressed;
+  final void Function()? onTap;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -22,7 +24,7 @@ class WidgetIconBotton extends StatelessWidget {
             Icons.skip_next_outlined,
             size: 60,
           ),
-          onPressed: () {},
+          onPressed: onTap,
         ),
       ],
     );

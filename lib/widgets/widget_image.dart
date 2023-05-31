@@ -4,9 +4,9 @@ import '../model/m_ar.dart';
 
 class WidgetImage extends StatelessWidget {
   const WidgetImage({super.key, required this.data});
-  final ModelAr data;
 
   /// proprtes
+  final ModelAr data;
 
   @override
   Widget build(BuildContext context) {
@@ -16,10 +16,10 @@ class WidgetImage extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(
-                data.image,
-              ),
-            ),
+                image: AssetImage(
+                  data.image,
+                ),
+                fit: BoxFit.fill),
             borderRadius: const BorderRadius.all(
               Radius.circular(15),
             ),

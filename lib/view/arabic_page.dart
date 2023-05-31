@@ -1,22 +1,13 @@
 import 'package:flutter/material.dart';
-import '../widgets/body_widget_imge.dart';
+import '../widgets/body_widget_ar.dart';
 
-class ArabicPage extends StatefulWidget {
+class ArabicPage extends StatelessWidget {
   const ArabicPage({super.key});
 
   @override
-  State<ArabicPage> createState() => _ArabicPageState();
-}
-
-class _ArabicPageState extends State<ArabicPage> {
-  int currentIndex = 0;
-  List<Widget> navigationBody = const [
-    BodyWidgetImge(),
-  ];
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: navigationBody[currentIndex],
+    return const Scaffold(
+      body: BodyWidgetAr(),
     );
   }
 }
