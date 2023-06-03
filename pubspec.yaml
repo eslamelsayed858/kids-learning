@@ -28,6 +28,7 @@ flutter:
     - assets/home_images/
     - assets/ar_image/
     - assets/numbers_eng_image/
+    - assets/numbers_ar_image/
     - assets/eng_image/
 
   # example:

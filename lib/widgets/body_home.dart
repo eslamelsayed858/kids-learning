@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import '../view/animals_page.dart';
 import '../view/arabic_page.dart';
 import '../view/english_page.dart';
-import '../view/mathematics_page.dart';
+import '../view/mathematics_ar_page.dart';
+import '../view/mathematics_eng_page.dart';
 
 class BodyHome extends StatelessWidget {
   const BodyHome({super.key});
@@ -12,7 +13,7 @@ class BodyHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
-        itemCount: 4,
+        itemCount: 5,
         physics: const BouncingScrollPhysics(),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
@@ -47,12 +48,21 @@ class BodyHome extends StatelessWidget {
                       },
                     ),
                   );
+                } else if (index == 3) {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) {
+                        /// Page Home Animals
+                        return const MathematicsPageNumberdEng();
+                      },
+                    ),
+                  );
                 } else {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) {
                         /// Page Home Animals
-                        return const MathematicsPage();
+                        return const MathematicsPageNumbersAr();
                       },
                     ),
                   );

@@ -1,5 +1,6 @@
-import 'package:children_education/constant/imge_home.dart';
 import 'package:children_education/model/m_home_data.dart';
+
+import '../constant/data_home.dart';
 
 class ControllerHomeData {
   /// Controller Home Data
@@ -26,6 +27,10 @@ class ControllerHomeData {
     ModelHomeData(
       title: DataHome.title4,
       image: DataHome.image4,
+    ),
+    ModelHomeData(
+      title: DataHome.title5,
+      image: DataHome.image5,
     ),
   ];
   static int get length => listHome.length;

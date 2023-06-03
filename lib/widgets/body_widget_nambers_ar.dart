@@ -2,17 +2,18 @@ import 'package:children_education/widgets/widget_icon_button.dart';
 import 'package:children_education/widgets/widget_image.dart';
 import 'package:flutter/material.dart';
 
-import '../controllers/c_numbers_eng.dart';
+import '../controllers/c_numbers_ar.dart';
 
-class BodyWidgetNu extends StatefulWidget {
-  const BodyWidgetNu({super.key});
+class BodyWidgetArNum extends StatefulWidget {
+  const BodyWidgetArNum({super.key});
 
   @override
-  State<BodyWidgetNu> createState() => _BodyWidgetNuState();
+  State<BodyWidgetArNum> createState() => _BodyWidgetArNumState();
 }
 
-class _BodyWidgetNuState extends State<BodyWidgetNu> {
+class _BodyWidgetArNumState extends State<BodyWidgetArNum> {
   int currentIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -23,7 +24,7 @@ class _BodyWidgetNuState extends State<BodyWidgetNu> {
           /// Widget Image Data
           child: WidgetImage(
             /// ControllerNumbers
-            data: ControllerNu.getNu(currentIndex),
+            data: ControllerNumbersAr.getNuAr(currentIndex),
           ),
         ),
         const SizedBox(
@@ -36,13 +37,13 @@ class _BodyWidgetNuState extends State<BodyWidgetNu> {
             setState(() {});
 
             ///  currentIndex++ 1 2 3
-            currentIndex++;
+            if (currentIndex < 8) currentIndex++;
           },
           onPressed: () {
             setState(() {});
 
             ///  currentIndex-- 3 2 1
-            currentIndex--;
+            if (currentIndex > 0) currentIndex--;
           },
         ),
       ],

@@ -35,13 +35,13 @@ class _BodyWidgetEnState extends State<BodyWidgetEn> {
             setState(() {});
 
             /// currentIndex++ ->
-            currentIndex++;
+            if (currentIndex < 25) currentIndex++;
           },
           onPressed: () {
             setState(() {});
 
             /// currentIndex--  <-
-            currentIndex--;
+            if (currentIndex < 0) currentIndex--;
           },
         ),
       ],
