@@ -2,7 +2,7 @@ import 'package:children_education/constant/styel_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../constant/imge_splash.dart';
+import '../constant/data_splash.dart';
 import '../view/home_page.dart';
 
 class WidgetSplashView extends StatefulWidget {

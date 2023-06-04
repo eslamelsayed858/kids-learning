@@ -1,10 +1,10 @@
 class DataHome {
   /// title Data Home
-  static const String title1 = "Animals";
-  static const String title2 = "Arabic";
-  static const String title3 = "English";
-  static const String title4 = "Numbers";
-  static const String title5 = "Arabic Numbers";
+  static const String title1 = "اصوات الحيوانات";
+  static const String title2 = "الحروف العربيه";
+  static const String title3 = "الحروف الانجليزيه";
+  static const String title4 = "الارقام الانجيلزيه";
+  static const String title5 = "الارقام العربيه";
 
   /// image Data Home
   static const String image1 = 'assets/home_images/download.png';

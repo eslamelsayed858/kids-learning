@@ -42,17 +42,17 @@ class _HomePageState extends State<HomePage> {
         items: const [
           /// index 0
           BottomNavigationBarItem(
-              icon: Icon(Icons.home_outlined),
-              activeIcon: Icon(Icons.home),
+              icon: Icon(Icons.home),
+              activeIcon: Icon(Icons.home_outlined),
               label: "Home",
-              backgroundColor: K),
+              backgroundColor: kcolor),
 
           /// index 1
           BottomNavigationBarItem(
               icon: Icon(Icons.video_library),
               activeIcon: Icon(Icons.video_library_outlined),
               label: "video",
-              backgroundColor: K),
+              backgroundColor: kcolor),
         ],
       ),
     );

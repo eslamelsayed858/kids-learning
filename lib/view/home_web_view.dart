@@ -30,7 +30,7 @@ class _PageWebViewState extends State<PageWebView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: K,
+        backgroundColor: kcolor,
 
         /// access properties in class first
         title: const Text("تعليم الطفل "),

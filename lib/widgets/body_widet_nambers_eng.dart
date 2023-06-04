@@ -42,7 +42,7 @@ class _BodyWidgetNumdersUngState extends State<BodyWidgetNumdersUng> {
             setState(() {});
 
             ///  currentIndex-- 3 2 1
-            if (currentIndex < 0) currentIndex--;
+            if (currentIndex > 0) currentIndex--;
           },
         ),
       ],

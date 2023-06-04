@@ -1,7 +1,7 @@
 class DataVideo {
   /// Title
 
-  static const String title1 = " تعليم اطفال الكلام";
+  static const String title1 = " تعليم الاطفال الكلام";
 
   /// Image
   static const String image1 =

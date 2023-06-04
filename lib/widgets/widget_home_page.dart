@@ -3,6 +3,7 @@ import 'package:children_education/model/m_home_data.dart';
 import 'package:flutter/material.dart';
 
 import '../constant/color.dart';
+import '../constant/styel_text.dart';
 
 class WidgetHomePage extends StatelessWidget {
   const WidgetHomePage({super.key, required this.data, required this.onTap});
@@ -26,7 +27,7 @@ class WidgetHomePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30),
 
                     /// color BorderRadius
-                    border: Border.all(color: K, width: 1.5),
+                    border: Border.all(color: kcolor, width: 1.5),
                   ),
                   child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -51,6 +52,7 @@ class WidgetHomePage extends StatelessWidget {
                           child: Text(
                             /// title home `index`
                             data.title!,
+                            style: Styles.textStyle18,
                           ),
                         )
                       ]),
