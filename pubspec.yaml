@@ -32,6 +32,10 @@ flutter:
     - assets/numbers_ar_image/
     - assets/eng_image/
     - assets/ar_sound/
+    - assets/letters_eng_sound/
+    - assets/numbers_ar_sound/
+    - assets/numbers_eng_sound/
+
   # example:
   # fonts:
   #   - family: Schyler

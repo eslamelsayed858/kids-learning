@@ -1,4 +1,4 @@
-import '../constant/imge_en.dart';
+import '../constant/letters_eng_imge.dart';
 
 import '../model/m_data.dart';
 
@@ -6,32 +6,32 @@ class ControllerEn {
   /// /// Controller English
   static List<ModelData> listEn = [
     ///0
-    ModelData(image: ImageEn.letter1eng),
-    ModelData(image: ImageEn.letter2eng),
-    ModelData(image: ImageEn.letter3eng),
-    ModelData(image: ImageEn.letter4eng),
-    ModelData(image: ImageEn.letter5eng),
-    ModelData(image: ImageEn.letter6eng),
-    ModelData(image: ImageEn.letter7eng),
-    ModelData(image: ImageEn.letter8eng),
-    ModelData(image: ImageEn.letter9eng),
-    ModelData(image: ImageEn.letter11eng),
-    ModelData(image: ImageEn.letter12eng),
-    ModelData(image: ImageEn.letter10eng),
-    ModelData(image: ImageEn.letter13eng),
-    ModelData(image: ImageEn.letter14eng),
-    ModelData(image: ImageEn.letter15eng),
-    ModelData(image: ImageEn.letter16eng),
-    ModelData(image: ImageEn.letter17eng),
-    ModelData(image: ImageEn.letter18eng),
-    ModelData(image: ImageEn.letter19eng),
-    ModelData(image: ImageEn.letter20eng),
-    ModelData(image: ImageEn.letter21eng),
-    ModelData(image: ImageEn.letter22eng),
-    ModelData(image: ImageEn.letter23eng),
-    ModelData(image: ImageEn.letter24eng),
-    ModelData(image: ImageEn.letter25eng),
-    ModelData(image: ImageEn.letter26eng),
+    ModelData(image: LettersImageEn.letter1eng),
+    ModelData(image: LettersImageEn.letter2eng),
+    ModelData(image: LettersImageEn.letter3eng),
+    ModelData(image: LettersImageEn.letter4eng),
+    ModelData(image: LettersImageEn.letter5eng),
+    ModelData(image: LettersImageEn.letter6eng),
+    ModelData(image: LettersImageEn.letter7eng),
+    ModelData(image: LettersImageEn.letter8eng),
+    ModelData(image: LettersImageEn.letter9eng),
+    ModelData(image: LettersImageEn.letter11eng),
+    ModelData(image: LettersImageEn.letter12eng),
+    ModelData(image: LettersImageEn.letter10eng),
+    ModelData(image: LettersImageEn.letter13eng),
+    ModelData(image: LettersImageEn.letter14eng),
+    ModelData(image: LettersImageEn.letter15eng),
+    ModelData(image: LettersImageEn.letter16eng),
+    ModelData(image: LettersImageEn.letter17eng),
+    ModelData(image: LettersImageEn.letter18eng),
+    ModelData(image: LettersImageEn.letter19eng),
+    ModelData(image: LettersImageEn.letter20eng),
+    ModelData(image: LettersImageEn.letter21eng),
+    ModelData(image: LettersImageEn.letter22eng),
+    ModelData(image: LettersImageEn.letter23eng),
+    ModelData(image: LettersImageEn.letter24eng),
+    ModelData(image: LettersImageEn.letter25eng),
+    ModelData(image: LettersImageEn.letter26eng),
   ];
   static int get length => listEn.length;
 

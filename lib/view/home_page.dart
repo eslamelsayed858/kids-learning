@@ -28,8 +28,8 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
         elevation: 20,
-        selectedItemColor: Colors.white,
-        unselectedItemColor: Colors.white70,
+        selectedItemColor: kcolor2,
+        unselectedItemColor: kcolor2,
 
         /// type work background
         type: BottomNavigationBarType.shifting,

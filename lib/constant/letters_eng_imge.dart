@@ -1,4 +1,5 @@
-class ImageEn {
+class LettersImageEn {
+  /// Letters Image English
   static const String letter1eng = 'assets/eng_image/letter1_eng.png';
   static const String letter2eng = 'assets/eng_image/letter2_eng.png';
   static const String letter3eng = 'assets/eng_image/letter3_eng.png';

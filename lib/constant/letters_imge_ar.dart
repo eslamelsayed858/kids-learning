@@ -1,4 +1,5 @@
-class ImageLettersAr {
+class LettersImageAr {
+  /// Letters Image Arabic
   static const String letter1ar = 'assets/ar_image/letter1_ar.png';
   static const String letter2ar = 'assets/ar_image/letter2_ar.png';
   static const String letter3ar = 'assets/ar_image/letter3_ar.png';

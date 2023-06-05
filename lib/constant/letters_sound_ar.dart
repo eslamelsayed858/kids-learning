@@ -1,4 +1,5 @@
 class LettersSoundAr {
+  /// Letters Sound Arabic
   static const String letter1ar = 'ar_sound/letter1_ar.mp3';
   static const String letter2ar = 'ar_sound/letter2_ar.mp3';
   static const String letter3ar = 'ar_sound/letter3_ar.mp3';

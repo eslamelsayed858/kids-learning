@@ -33,7 +33,7 @@ class _PageWebViewState extends State<PageWebView> {
         backgroundColor: kcolor,
 
         /// access properties in class first
-        title: const Text("تعليم الطفل "),
+        title: const Text("علم طفلك"),
         centerTitle: true,
       ),
       body: WebViewWidget(controller: controller),

@@ -1,18 +1,48 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:children_education/widgets/widget_icon_button.dart';
 import 'package:children_education/widgets/widget_image.dart';
 import 'package:flutter/material.dart';
 
+import '../constant/numbers_eng_sound.dart';
 import '../controllers/c_numbers_eng.dart';
 
-class BodyWidgetNumdersUng extends StatefulWidget {
-  const BodyWidgetNumdersUng({super.key});
+class BodyWidgetNumdersEng extends StatefulWidget {
+  const BodyWidgetNumdersEng({super.key});
 
   @override
-  State<BodyWidgetNumdersUng> createState() => _BodyWidgetNumdersUngState();
+  State<BodyWidgetNumdersEng> createState() => _BodyWidgetNumdersEngState();
 }
 
-class _BodyWidgetNumdersUngState extends State<BodyWidgetNumdersUng> {
+class _BodyWidgetNumdersEngState extends State<BodyWidgetNumdersEng> {
   int currentIndex = 0;
+  late AudioPlayer myAudioPlayer;
+
+  /// run just when open page
+  @override
+  void initState() {
+    super.initState();
+
+    /// object audio
+    myAudioPlayer = AudioPlayer();
+
+    /// run audio depended current `index` list
+    myAudioPlayer
+        .setSourceAsset(NumbersEngSound.myListNumbersEngSound[currentIndex]);
+
+    /// fix audio when  `paused` or `stopped`.
+    myAudioPlayer.resume();
+  }
+
+  /// run end page `finish`
+  @override
+  void dispose() {
+    super.dispose();
+
+    /// stop audio when out page
+    myAudioPlayer.stop();
+    myAudioPlayer.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -35,14 +65,27 @@ class _BodyWidgetNumdersUngState extends State<BodyWidgetNumdersUng> {
           onTap: () {
             setState(() {});
 
-            ///  currentIndex++ 1 2 3
-            if (currentIndex < 8) currentIndex++;
+            /// very very import increase `currentIndex` add one
+            if (currentIndex <
+                NumbersEngSound.myListNumbersEngSound.length - 1) {
+              currentIndex++;
+            }
+
+            /// this is a test for Arabic letter
+            myAudioPlayer.setSourceAsset(
+                NumbersEngSound.myListNumbersEngSound[currentIndex]);
+            myAudioPlayer.resume();
+            setState(() {});
           },
           onPressed: () {
-            setState(() {});
-
-            ///  currentIndex-- 3 2 1
+            /// very very import decrease `currentIndex` add one
             if (currentIndex > 0) currentIndex--;
+
+            /// this is a test for Arabic letter
+            myAudioPlayer.setSourceAsset(
+                NumbersEngSound.myListNumbersEngSound[currentIndex]);
+            myAudioPlayer.resume();
+            setState(() {});
           },
         ),
       ],

@@ -9,7 +9,7 @@ class MathematicsPageNumberdEng extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       /// Body Widget Numbers 1 2 3
-      body: BodyWidgetNumdersUng(),
+      body: BodyWidgetNumdersEng(),
     );
   }
 }

@@ -2,7 +2,6 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:children_education/widgets/widget_icon_button.dart';
 import 'package:children_education/widgets/widget_image.dart';
 import 'package:flutter/material.dart';
-
 import '../constant/letters_sound_ar.dart';
 import '../controllers/c_ar.dart';
 

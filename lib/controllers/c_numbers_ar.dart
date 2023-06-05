@@ -6,31 +6,31 @@ class ControllerNumbersAr {
   static List<ModelData> listNumbersAr = [
     ///0
     ModelData(
-      image: ImageNumbersAr.number1ar,
+      image: NumbersImageAr.number1ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number2ar,
+      image: NumbersImageAr.number2ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number3ar,
+      image: NumbersImageAr.number3ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number4ar,
+      image: NumbersImageAr.number4ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number5ar,
+      image: NumbersImageAr.number5ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number6ar,
+      image: NumbersImageAr.number6ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number7ar,
+      image: NumbersImageAr.number7ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number8ar,
+      image: NumbersImageAr.number8ar,
     ),
     ModelData(
-      image: ImageNumbersAr.number9ar,
+      image: NumbersImageAr.number9ar,
     ),
   ];
   static int get length => listNumbersAr.length;
