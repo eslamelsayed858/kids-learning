@@ -39,7 +39,7 @@ class _BodyWidgetNumdersEngState extends State<BodyWidgetNumdersEng> {
     super.dispose();
 
     /// stop audio when out page
-    myAudioPlayer.stop();
+    // myAudioPlayer.stop();
     myAudioPlayer.dispose();
   }
 
