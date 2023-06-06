@@ -1,7 +1,6 @@
 import 'package:children_education/constant/styel_text.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import '../constant/data_splash.dart';
 import '../view/home_page.dart';
 
@@ -29,16 +28,17 @@ class _WidgetSplashViewState extends State<WidgetSplashView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           const SizedBox(
-            height: 150,
+            height: 140,
           ),
 
           /// logo
           Image.asset(SplashView.logo),
-          const SizedBox(
-            height: 35,
-          ),
+          // const SizedBox(
+          //   height: 35,
+          // ),
           const Text(
             /// title 1
             SplashView.title1,
@@ -49,9 +49,9 @@ class _WidgetSplashViewState extends State<WidgetSplashView> {
             SplashView.title2,
             style: Styles.textStyle18,
           ),
-          const SizedBox(
-            height: 35,
-          ),
+          // const SizedBox(
+          //   height: 35,
+          // ),
 
           /// image
           Image.asset(
