@@ -10,6 +10,11 @@ class ControllerVideo {
       image: DataVideo.image1,
       link: DataVideo.link1,
     ),
+    ModelHomeData(
+      title: DataVideo.title2,
+      image: DataVideo.image2,
+      link: DataVideo.link2,
+    ),
   ];
 
   /// get length list
