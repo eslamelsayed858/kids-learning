@@ -37,7 +37,7 @@ class _WidgetSplashViewState extends State<WidgetSplashView> {
           /// logo
           Image.asset(SplashView.logo),
           const SizedBox(
-            height: 40,
+            height: 35,
           ),
           const Text(
             /// title 1
@@ -50,7 +50,7 @@ class _WidgetSplashViewState extends State<WidgetSplashView> {
             style: Styles.textStyle18,
           ),
           const SizedBox(
-            height: 40,
+            height: 35,
           ),
 
           /// image
