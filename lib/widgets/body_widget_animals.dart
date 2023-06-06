@@ -1,19 +1,19 @@
 import 'package:audioplayers/audioplayers.dart';
-import 'package:children_education/controllers/c_en.dart';
 import 'package:children_education/widgets/widget_icon_button.dart';
 import 'package:children_education/widgets/widget_image.dart';
 import 'package:flutter/material.dart';
 
-import '../constant/letters_eng_sound.dart';
+import '../constant/animals_sound.dart';
+import '../controllers/c_animals.dart';
 
-class BodyWidgetEn extends StatefulWidget {
-  const BodyWidgetEn({super.key});
+class BodyWidgetAnimals extends StatefulWidget {
+  const BodyWidgetAnimals({super.key});
 
   @override
-  State<BodyWidgetEn> createState() => _BodyWidgetEnState();
+  State<BodyWidgetAnimals> createState() => _BodyWidgetAnimalsState();
 }
 
-class _BodyWidgetEnState extends State<BodyWidgetEn> {
+class _BodyWidgetAnimalsState extends State<BodyWidgetAnimals> {
   int currentIndex = 0;
   late AudioPlayer myAudioPlayer;
 
@@ -27,7 +27,7 @@ class _BodyWidgetEnState extends State<BodyWidgetEn> {
 
     /// run audio depended current `index` list
     myAudioPlayer
-        .setSourceAsset(LettersSoundEn.myListLetterEngSound[currentIndex]);
+        .setSourceAsset(AnimalsSound.myListLetterAnimalsSound[currentIndex]);
 
     /// fix audio when  `paused` or `stopped`.
     myAudioPlayer.resume();
@@ -49,39 +49,34 @@ class _BodyWidgetEnState extends State<BodyWidgetEn> {
       children: [
         SizedBox(
           height: 500,
-
-          /// Widget Image Data
           child: WidgetImage(
-            /// Controller English
-            data: ControllerEn.getEn(currentIndex),
+            data: ControllerAnimalsImages.getAn(currentIndex),
           ),
         ),
         const SizedBox(
           height: 50,
         ),
-
-        /// Widget Icon Botton
         WidgetIconBotton(
           onTap: () {
-            setState(() {});
-
             /// very very import increase `currentIndex` add one
-            if (currentIndex < LettersSoundEn.myListLetterEngSound.length - 1) {
+            if (currentIndex <
+                AnimalsSound.myListLetterAnimalsSound.length - 1) {
               currentIndex++;
             }
 
             /// this is a test for Arabic letter
             myAudioPlayer.setSourceAsset(
-                LettersSoundEn.myListLetterEngSound[currentIndex]);
+                AnimalsSound.myListLetterAnimalsSound[currentIndex]);
             myAudioPlayer.resume();
             setState(() {});
           },
           onPressed: () {
+            /// very very import decrease `currentIndex` add one
             if (currentIndex > 0) currentIndex--;
 
             /// this is a test for Arabic letter
             myAudioPlayer.setSourceAsset(
-                LettersSoundEn.myListLetterEngSound[currentIndex]);
+                AnimalsSound.myListLetterAnimalsSound[currentIndex]);
             myAudioPlayer.resume();
             setState(() {});
           },

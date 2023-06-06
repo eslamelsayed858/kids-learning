@@ -39,7 +39,7 @@ class _BodyWidgetArNumbersState extends State<BodyWidgetArNumbers> {
     super.dispose();
 
     /// stop audio when out page
-    myAudioPlayer.stop();
+    // myAudioPlayer.stop();
     myAudioPlayer.dispose();
   }
 

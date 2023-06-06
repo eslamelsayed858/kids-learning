@@ -35,12 +35,14 @@ flutter:
     - assets/letters_eng_sound/
     - assets/numbers_ar_sound/
     - assets/numbers_eng_sound/
+    - assets/animals_images/
+    - assets/animals_sound/
 
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/font/Cairo-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
