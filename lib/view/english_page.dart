@@ -1,3 +1,4 @@
+import 'package:children_education/widgets/widget_app_bar.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/body_widget_en.dart';
@@ -9,7 +10,15 @@ class EnglishPahe extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       /// Body Widget Endlish
-      body: BodyWidgetEn(),
+      body: Column(
+        children: [
+          WidgetAppBar(
+            title: "الحروف الانجليزيه",
+            color: Color(0xffEA698D),
+          ),
+          BodyWidgetEn(),
+        ],
+      ),
     );
   }
 }

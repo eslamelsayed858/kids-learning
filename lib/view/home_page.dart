@@ -23,13 +23,17 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: kcolorn1,
+        title: const Text("Children Education"),
+        centerTitle: true,
+      ),
+
       /// BodyHome
       body: navigationBody[currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: currentIndex,
         elevation: 20,
-        selectedItemColor: kcolor2,
-        unselectedItemColor: kcolor2,
 
         /// type work background
         type: BottomNavigationBarType.shifting,
@@ -43,16 +47,22 @@ class _HomePageState extends State<HomePage> {
           /// index 0
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
-              activeIcon: Icon(Icons.home_outlined),
+              activeIcon: Icon(
+                Icons.home_outlined,
+                size: 30,
+              ),
               label: "Home",
-              backgroundColor: kcolor),
+              backgroundColor: kcolorn1),
 
           /// index 1
           BottomNavigationBarItem(
               icon: Icon(Icons.video_library),
-              activeIcon: Icon(Icons.video_library_outlined),
+              activeIcon: Icon(
+                Icons.video_library_outlined,
+                size: 30,
+              ),
               label: "video",
-              backgroundColor: kcolor),
+              backgroundColor: kcolorn3),
         ],
       ),
     );
