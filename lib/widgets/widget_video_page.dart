@@ -34,7 +34,7 @@ class WidgetVideoPage extends StatelessWidget {
                   width: double.infinity,
                   color: Colors.white,
                   child: Image(
-                    image: NetworkImage(data.image),
+                    image: AssetImage(data.image),
                     fit: BoxFit.fill,
                   ),
                 ),

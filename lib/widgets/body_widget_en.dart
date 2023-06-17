@@ -62,6 +62,8 @@ class _BodyWidgetEnState extends State<BodyWidgetEn> {
 
         /// Widget Icon Botton
         WidgetIconBotton(
+          color1: const Color(0xffEA698D),
+          color2: const Color(0xffEA698D),
           onTap: () {
             setState(() {});
 

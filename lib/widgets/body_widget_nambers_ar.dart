@@ -62,6 +62,8 @@ class _BodyWidgetArNumbersState extends State<BodyWidgetArNumbers> {
 
         /// Widget Icon Botton
         WidgetIconBotton(
+          color1: const Color(0xff8B549B),
+          color2: const Color(0xff8B549B),
           onTap: () {
             setState(() {});
 

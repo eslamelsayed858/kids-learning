@@ -56,6 +56,8 @@ class _BodyWidgetArState extends State<BodyWidgetAr> {
           height: 50,
         ),
         WidgetIconBotton(
+          color2: const Color(0xffE30613),
+          color1: const Color(0xffE30613),
           onTap: () {
             /// very very import increase `currentIndex` add one
             if (currentIndex < LettersSoundAr.myListLetterArSound.length - 1) {

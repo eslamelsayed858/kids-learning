@@ -7,14 +7,10 @@ class DataVideo {
   static const String title4 = "قصة المعاز الثلاثه ";
 
   /// Image
-  static const String image1 =
-      "https://www.sayidaty.net/sites/default/files/styles/900_scale/public/2022-10/170815.jpeg";
-  static const String image2 =
-      "https://i.ytimg.com/vi/H1rJc-gzKLg/maxresdefault.jpg";
-  static const String image3 =
-      "https://www.ngmisr.com/wp-content/uploads/2022/12/Screenshot-3-12.png";
-  static const String image4 =
-      "https://i.ytimg.com/vi/vZ9nMI2adpE/maxresdefault.jpg";
+  static const String image1 = "assets/home_images/170815.jpeg";
+  static const String image2 = "assets/home_images/maxresdefault.jpg";
+  static const String image3 = "assets/home_images/صديق-الثعلب.jpg";
+  static const String image4 = "assets/home_images/maxresdefaul.jpg";
 
   /// Link
   static const String link1 = "https://youtu.be/FP1It5kegv4";

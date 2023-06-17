@@ -57,6 +57,8 @@ class _BodyWidgetAnimalsState extends State<BodyWidgetAnimals> {
           height: 50,
         ),
         WidgetIconBotton(
+          color1: Colors.green,
+          color2: Colors.green,
           onTap: () {
             /// very very import increase `currentIndex` add one
             if (currentIndex <
